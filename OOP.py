@@ -1,4 +1,5 @@
 class TestMath:
+    #function called everytime an object is created to allow the class initialize the object's attributes
     def __init__(self, x, y):
         self.x = x
         self.y = y
